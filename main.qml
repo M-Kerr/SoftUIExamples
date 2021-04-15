@@ -368,5 +368,23 @@ ApplicationWindow {
                 }
             }
         }
+
+        ColumnLayout {
+            spacing: 25
+
+            Label {
+                id: craterSearchBarLabel
+                text: "CraterSearchBar"
+                font { bold: true; pixelSize: 20; }
+                color: "#424242"
+                wrapMode: Text.Wrap
+                horizontalAlignment: Text.AlignHCenter
+
+                ColumnLayout.alignment: Qt.AlignHCenter
+                ColumnLayout.fillWidth: true
+            }
+
+            SoftCraterSearchBar { implicitWidth: 200 }
+        }
     }
 }

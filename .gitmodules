@@ -1,0 +1,3 @@
+[submodule "SoftUI"]
+	path = SoftUI
+	url = https://github.com/M-Kerr/SoftUI

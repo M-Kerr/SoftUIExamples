@@ -374,7 +374,7 @@ ApplicationWindow {
 
             Label {
                 id: craterSearchBarLabel
-                text: "CraterSearchBar"
+                text: "RecessedSearchBar"
                 font { bold: true; pixelSize: 20; }
                 color: "#424242"
                 wrapMode: Text.Wrap
@@ -384,7 +384,7 @@ ApplicationWindow {
                 ColumnLayout.fillWidth: true
             }
 
-            SoftCraterSearchBar { implicitWidth: 200 }
+            SoftRecessedSearchBar { implicitWidth: 200 }
         }
     }
 }
